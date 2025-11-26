@@ -1,7 +1,36 @@
+# Arquivos de ambiente e configuração
 .env
-__pycache__/
-.vscode/
-requirements.txt
+.env.*
+
+# Dependências e ambiente virtual
 .venv/
-img/
+__pycache__/
+*.pyc
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Banco de dados gerado
 projeto_rpa.db
+*.db
+
+# Arquivos de relatório gerados automaticamente
+Relatorio_Projeto_RPA.pdf
+Relatorio_Projeto_RPA.html
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+
+# Diretórios opcionais
+img/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Scripts auxiliares gerados
+gerar_*.py
+converter_*.py
+verificar_*.py
