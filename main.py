@@ -200,7 +200,7 @@ def consultar_dados_banco(conn, limite=5):
 
 def main():
     """Função principal que coordena o fluxo do programa"""
-    print("\n🌤️  SISTEMA DE COLETA DE DADOS METEOROLÓGICOS - RPA")
+    print("\n🌤️ SISTEMA DE COLETA DE DADOS METEOROLÓGICOS - RPA")
     print("=" * 70)
     
     try:
