@@ -17,7 +17,6 @@ import json
 import sqlite3
 from datetime import datetime
 
-
 def carregar_configuracoes():
     """Carrega a API key (configurada diretamente no código para entrega da prova)"""
     # API Key do OpenWeatherMap (gratuita)
